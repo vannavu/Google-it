@@ -1,0 +1,465 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');
+
+/* red: #F44336 */
+
+* {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	font-family: "Roboto", sans-serif; 
+	font-weight: 400;
+}
+
+a {
+	text-decoration: none;
+}
+
+.homebody {
+	background-color: whitesmoke;
+}
+
+.logohome {
+	width: 850px;
+}
+
+header {
+	position: relative;
+	background-color: whitesmoke;
+	background-image: url('../images/logo2.svg');
+	background-size: 500px;
+	background-repeat: no-repeat;
+	background-position: 0 39%;
+	padding: 25px 2rem 25px 20px;
+	height: 98px;
+}
+
+.gohome {
+	position: absolute;
+	height: 100px;
+	width: 500px;
+	top: 0;
+}
+
+header ul {
+	display: inline-block;
+	position: relative;
+	z-index: 1;
+	list-style: none;
+	padding: none;
+	float: right;
+}
+
+header ul li {
+	display: inline-block;
+	font-weight: 400;
+	color: gray;
+	text-transform: uppercase;
+	font-size: .8rem;
+	letter-spacing: .05em;
+	margin-left: 1rem;
+}
+
+header ul li a {
+	color: gray;
+}
+
+header ul li a:hover {
+	color: mediumseagreen;
+}
+
+.search {
+	position: absolute;
+	z-index: 1;
+	display: inline-block;
+	background-color: rgba(255,255,255,.95);
+	width: 550px;
+	min-width: 300px;
+	margin-left: 130px;
+	padding: 14px 12px 12px 15px;
+	border: 1px solid silver;
+	box-shadow: 1px 1px 2px lightgray, -1px 1px 2px lightgray;
+}
+
+.home {
+	display: block;
+	margin: auto;
+	position: absolute;
+    top: 51%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-51%);
+    width: 510px;
+}
+
+footer ul {
+	position: absolute;
+	display: inline-block;
+	top: 58%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-58%);
+	padding: 0;
+}
+
+footer ul li {
+	display: inline-block;
+	background-color: rgba(128,128,128,.15);
+	padding: 14px;
+	margin: 10px 12px 0 12px;
+	font-weight: 400;
+	text-transform: uppercase;
+	font-size: .8rem;
+	letter-spacing: .05em;
+}
+
+footer ul li a {
+	color: gray;
+}
+
+footer ul li a:hover {
+	color: black;
+}
+
+footer ul li a:hover .fa-star {
+	color: #FFEB3B;
+}
+
+.logohome {
+	position: absolute;
+    top: 34%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-34%);
+    font-size: 100px;
+}
+
+.search i {
+	float: right;
+	margin-right: .25em;
+	color: seagreen;
+}
+
+.fa-bars {
+	display: none;
+}
+
+.card {
+	display: inline-block;
+	width: 450px;
+	margin: 2.5rem 0 0 1rem;
+	border: 1px solid silver;
+}
+
+.mainimg {
+	vertical-align: bottom;
+}
+
+.card h4 {
+	font-size: 2em;
+	margin: 1em 0 .1em 0;
+}
+
+.card h5 {
+	font-size: .9rem;
+	font-family: Arial, sans-serif;
+	color: gray;
+	margin: 0 0 2rem 0;
+}
+
+.cleft {
+	display: inline-block;
+	width: 50%;
+	height: 125px;
+	vertical-align: top;
+	background-image: url('http://iruntheinternet.com/lulzdump/images/swan-boat-hide-costume-disguise-1335459993T.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 50% 50%; 
+}
+
+.cright {
+	display: inline-block;
+	width: 50%;
+	height: 125px;
+	vertical-align: top;
+	background-image: url('http://img07.deviantart.net/3277/i/2006/292/f/0/swan_breaking_a_mans_arm_by_boredatwork.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+}
+
+.journal {
+	width: 100%;
+	padding: 10px 25px 15px 25px;
+}
+
+.resultcolumn {
+	display: inline-block;
+	float: left;
+	width: 550px;
+	margin: 10px 40px 100px 150px;
+}
+
+.result {
+	margin-top: 1.5rem;
+}
+
+.result h2 {
+	font-size: 1.1rem;
+	margin: 0;
+}
+
+.result h2 a {
+	color: mediumblue;
+}
+
+.result h2 a:visited {
+	color: purple;
+}
+
+.result h3 {
+	font-size: .9rem;
+	margin: .15rem 0 0 0;
+}
+
+.result h3 a {
+	color: seagreen;
+}
+
+.result p {
+	font-family: Arial, sans-serif;
+	font-size: .8rem;
+	margin: .05rem 0 0 0;
+	line-height: 1.4em;
+}
+
+.result hr {
+	margin: 10px 0 10px 0;
+}
+
+.left {
+	position: relative;
+	display: inline-block;
+	width: 20%;
+	vertical-align: top;
+	margin-top: .25rem;
+}
+
+.fa-play-circle-o {
+	display: none;
+}
+
+.thumbnail {
+	vertical-align: bottom;
+}
+
+.videotime {
+	position: absolute;
+	vertical-align: bottom;
+	bottom: 0;
+	right: 0;
+	color: white;
+	background-color: rgba(0,0,0,.75);
+	padding: 3px 7px 3px 7px;
+	font-family: "Roboto", sans-serif;
+	font-size: 12px;
+}
+
+.right {
+	display: inline-block;
+	width: 78%;
+	float: right;
+	vertical-align: top;
+	margin-top: .1rem;
+}
+
+.related {
+	margin-top: 20px;
+}
+
+.related h4 {
+	font-weight: 700;
+	margin: 3em 0 .5em 0;
+}
+
+.related p {
+	margin-bottom: 1em;
+}
+
+.related a {
+	color: mediumblue;
+}
+
+.related a:visited {
+	color: purple;
+}
+
+.rleft {
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 4em;
+}
+
+.rright {
+	display: inline-block;
+	vertical-align: top;
+}
+
+@media (max-width: 1210px) {
+	.search {
+		width: 525px;
+	}
+	.home {
+		display: block;
+		margin: auto;
+		position: absolute;
+	    top: 51%;
+	    left: 50%;
+	    transform: translateX(-50%) translateY(-51%);
+	    width: 510px;
+	}
+	.resultcolumn {
+		width: 525px;
+		margin-right: 20px;
+	}
+	.card {
+		width: 300px;
+	}
+}
+
+@media (max-width: 1020px) {
+	.search {
+		width: 450px;
+		margin-left: 55px;
+	}
+	.home {
+		display: block;
+		margin: auto;
+		position: absolute;
+	    top: 51%;
+	    left: 50%;
+	    transform: translateX(-50%) translateY(-51%);
+	    width: 510px;
+	}
+	#stream {
+		display: none;
+	}
+	.resultcolumn {
+		display: block;
+		float: none;
+		margin-left: 75px;
+		padding-right: 25px;
+	}
+	.card {
+		display: block;
+		margin-left: 75px;
+		width: 450px;
+	}
+}
+
+@media (max-width: 700px) {
+	.logohome {
+		width: 110%;
+		top: 35%;
+		left: 50%;
+		transform: translateX(-50%) translateY(-35%);
+	}
+	footer ul {
+		top: 52%;
+		left: 50%;
+		transform: translateX(-50%) translateY(-52%);
+	}
+	footer ul li {
+		margin-left: 8px;
+		margin-right: 8px;
+	}
+	.gohome {
+		margin: 0;
+		width: 100%;
+		height: 98px;
+		background-color: rgba(245,245,245,.5);
+	}
+	.search {
+		display: block;
+		margin: 20px 0 0 2.5%;
+		width: 82%;
+	}
+	.fa-bars {
+		position: relative;
+		z-index: 1;
+		display: inline-block;
+		margin-top: 30px;
+		float: right;
+		font-size: 1.5rem;
+		color: seagreen;
+	}
+	.home {
+		margin: 0;
+		width: 85%;
+		top: 45%;
+		left: 50%;
+		transform: translateX(-50%) translateY(-45%);
+	}
+	header {
+		background-size: 450px;
+		background-position: 50% 35%;
+		padding: 10px 5% 1px 0;
+	}
+	header ul {
+		display: none;
+	}
+	.card {
+		margin: auto;
+		margin-top: 10px;
+		width: 95%;
+	}
+	.resultcolumn {
+		width: 100%;
+		padding: 0 3% 0 3%;
+		margin: auto;
+		margin-bottom: 50px;
+	}
+	.result {
+		margin-top: 1.25rem;
+	}
+	.result h3 {
+		display: none;
+	}
+	.result p {
+		font-size: .95em;
+		line-height: 1.15em;
+		width: 100%;
+	}
+	.left {
+		position: relative;
+		display: block;
+		width: 100%;
+	}
+	.videotime {
+		display: none;
+	}
+	.videotint {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 98%;
+		background-color: rgba(0,0,0,.25);
+	}
+	.fa-play-circle-o {
+		display: block;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translateX(-50%) translateY(-50%);
+		color: rgba(255,255,255,.8);
+		font-size: 8em;
+	}
+	.right {
+		display: block;
+		width: 100%;
+		margin-bottom: 1.5rem;
+	}
+	.rleft {
+		display: block;
+	}
+	.rright {
+		display: block;
+	}
+}
